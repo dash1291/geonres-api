@@ -44,9 +44,9 @@ Response:
 ### Additional parameters
 These are additional GET query params you can use in your query.
 
-* limit: Limit number of artists per query. Default value for this is 10.
-* page: Specify the offset in the list of artists.
-* sort: Sort the artists based on number of listeners. Accepted values: "asc"/"desc" for ascending and descending order respectively.
+* `limit`: Limit number of artists per query. Default value for this is 10.
+* `page`: Specify the offset in the list of artists.
+* `sort`: Sort the artists based on number of listeners. Accepted values: "asc"/"desc" for ascending and descending order respectively.
 
 A sample request using these params would be:
 `/artists/Austria?limit=5&page=3&sort=desc`
