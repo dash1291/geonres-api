@@ -7,28 +7,6 @@ You can use this API to consume data containing over 52K artists and the countri
 
 This will give you list of countries in the dataset.
 
-```json
-[
-  {
-    listeners: 1561,
-    name: "Markus Schulz & Jochen Miller"
-  },
-  {
-    listeners: 2071,
-    name: "Tritonal feat. Meredith Call"
-  },
-  {
-    listeners: 118,
-    name: "Blind Of 69"
-  },
-  {
-    listeners: 4271,
-    name: "Jonas Goldbaum"
-  }
-  ...
-  ...
-```
-
 ## GET /artists/<country>
 
 This will give you list of artists from the specified country.
@@ -68,7 +46,7 @@ These are additional GET query params you can use in your query.
 * sort: Sort the artists based on number of listeners. Accepted values: "asc"/"desc" for ascending and descending order respectively.
 
 A sample request using these params would be:
-/artists/Austria?limit=5&page=3&sort=desc
+`/artists/Austria?limit=5&page=3&sort=desc`
 
 # Get the data
 
