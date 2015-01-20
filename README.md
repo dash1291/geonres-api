@@ -36,6 +36,7 @@ Response:
   }
   ...
   ...
+]
 ```
 
 ### Additional parameters
