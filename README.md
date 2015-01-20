@@ -3,6 +3,8 @@ You can use this API to consume data containing over 52K artists and the countri
 
 # Requests
 
+Base URL for all the requests: `http://104.131.173.63`
+
 ## GET /countries
 
 This will give you list of countries in the dataset.
