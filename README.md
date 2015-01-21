@@ -9,7 +9,7 @@ Base URL for all the requests: `http://104.131.173.63`
 
 This will give you list of countries in the dataset.
 
-## GET /artists/<country>
+## GET /artists/`<country>`
 
 This will give you list of artists from the specified country.
 
